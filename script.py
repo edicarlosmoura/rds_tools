@@ -16,7 +16,7 @@ profile = args.profile
 region = args.region
 action = args.action
 
-logfile = os.path.join(os.getcwd(), 'log_script_stop_start_rds.log')
+logfile = os.path.join(os.getcwd(), 'log_script.log')
 
 ## Handler class
 class Handler:
